@@ -4,7 +4,7 @@ This library provides useful functionality for the Axway API management solution
 
 ## Functions: 
 
-- Get List of subscribers for an API
+- Get [List of subscribers](#get-api-subscribers) for an API
 
 ## Installation
 
