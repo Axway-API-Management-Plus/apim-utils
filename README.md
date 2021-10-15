@@ -8,14 +8,13 @@ This library provides useful functionality for the Axway API management solution
 
 ## Installation
 
-To install, download the [release package](https://github.com/Axway-API-Management-Plus/openapi-validator/releases) and install it under `ext/lib`. After that, restart the API Gateway. It is recommended to make the jars files known in the Policy Studio as well as it is describe here: https://docs.axway.com/bundle/axway-open-docs/page/docs/apim_policydev/apigw_poldev/general_ps_settings/index.html#runtime-dependencies
+To install, download the [release package](https://github.com/Axway-API-Management-Plus/apim-utils/releases) and install it under `ext/lib`. After that, restart the API Gateway. It is recommended to make the jars files known in the Policy Studio as well as it is describe here: https://docs.axway.com/bundle/axway-open-docs/page/docs/apim_policydev/apigw_poldev/general_ps_settings/index.html#runtime-dependencies
 
 ### Get API Subscribers
 
 For example, if you want to send email notifications to all developers, then you can use this function to create a list of subscribers. 
 This is based on the applications that have an active subscription to the API. Users who have created the application and are allowed to manage it will be taken into account. 
 Furthermore, you can set a custom property for users, which controls whether they should receive a notification or not.
-
 
 Here is an example for Groovy:  
 
@@ -43,11 +42,11 @@ def invoke(msg)
 }
 ```
 
-### Notification toggle
+#### Notification toggle
 
 You can give users the option to disable notifications. To do this, you configure a corresponding custom property for users in the API Manager, which is then used by the function. Here is an example:
 
-```json
+```
         user: {
             notify: {
                 label: 'Notification',
