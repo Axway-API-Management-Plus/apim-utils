@@ -1,0 +1,65 @@
+[
+    {
+        "id": "98caeae7-e89b-46c3-8b96-aee6d4d8bf00",
+        "name": "Plexus Suite - Surgery Center",
+        "description": "Physician app providing patient surgery tools and equipment management",
+        "organizationId": "fbb9fca7-e168-4c79-84fa-547516623d72",
+        "phone": null,
+        "email": null,
+        "createdBy": "d8554fd4-03a8-4371-be00-ADMIN",
+        "managedBy": [
+            "2e2b0e93-b840-4493-89af-MARKUS"
+        ],
+        "createdOn": 1622810810572,
+        "enabled": true,
+        "image": null,
+        "state": "approved",
+        "publicApp": "false"
+    },
+    {
+        "id": "6be10af4-a790-4621-9fa2-778be81c6722",
+        "name": "Client App",
+        "description": "Sample Client Application, registered for use in the Client Demo",
+        "organizationId": "3fec2611-17a1-46fa-be9f-dd00862ace7c",
+        "phone": "012345678",
+        "email": "sample@sampleapp.com",
+        "createdBy": "d8554fd4-03a8-4371-be00-ADMIN",
+        "managedBy": [],
+        "createdOn": 1622810814139,
+        "enabled": true,
+        "image": null,
+        "state": "approved",
+        "publicApp": "false"
+    },
+    {
+        "id": "923bbf72-13c6-40fa-8d70-dfe060dc04d1",
+        "name": "Axway Client App",
+        "description": null,
+        "organizationId": "2c724048-653e-418c-977f-b33f6219ee16",
+        "phone": null,
+        "email": null,
+        "createdBy": "d8554fd4-03a8-4371-be00-ADMIN",
+        "managedBy": [],
+        "createdOn": 1622811441732,
+        "enabled": true,
+        "image": null,
+        "state": "approved",
+        "publicApp": "false"
+    },
+    {
+        "id": "2e2b0e93-b840-4493-89af-2eded023e72f",
+        "name": "Plexus Suite - Appointment Management",
+        "description": "Physician app allowing to manage and follow-up on patient appointments",
+        "organizationId": "fbb9fca7-e168-4c79-84fa-547516623d72",
+        "phone": null,
+        "email": null,
+        "createdBy": "99a509ed-088a-4513-b450-ALICE",
+        "managedBy": [],
+        "createdOn": 1622810789888,
+        "enabled": true,
+        "image": null,
+        "state": "approved",
+        "publicApp": "false",
+        "subscriptions": "8a2e881c7bed9368017c07c030901baf"
+    }
+]

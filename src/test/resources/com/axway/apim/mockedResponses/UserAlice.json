@@ -1,0 +1,22 @@
+{
+    "id": "99a509ed-088a-4513-b450-ALICE",
+    "organizationId": "3fec2611-17a1-46fa-be9f-dd00862ace7c",
+    "name": "Alice",
+    "description": "Organization Administrator for Axway and API-Development",
+    "loginName": "alice",
+    "email": "alice@axway-internal.com",
+    "role": "oadmin",
+    "enabled": true,
+    "createdOn": 1630994174094,
+    "state": "approved",
+    "type": "internal",
+    "orgs2Role": {
+        "ea62bff5-2859-46d7-a29e-1731b2717795": "user",
+        "be9dd2f2-b2f0-4b4b-ac38-9d53da1e4dfd": "user"
+    },
+    "orgs2Name": {
+        "ea62bff5-2859-46d7-a29e-1731b2717795": "Partners",
+        "be9dd2f2-b2f0-4b4b-ac38-9d53da1e4dfd": "FastCars"
+    },
+    "dn": "cn=markus,o=API Development,ou=organizations,ou=APIPortal"
+}

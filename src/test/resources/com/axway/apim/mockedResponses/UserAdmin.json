@@ -1,0 +1,13 @@
+{
+    "id": "d8554fd4-03a8-4371-be00-ADMIN",
+    "name": "API Administrator",
+    "description": "API Administrator",
+    "loginName": "apiadmin",
+    "email": "apiadmin@localhost",
+    "role": "admin",
+    "enabled": true,
+    "createdOn": 1622123115459,
+    "state": "approved",
+    "type": "internal",
+    "dn": "cn=apiadmin,ou=organizations,ou=APIPortal"
+}

@@ -1,0 +1,95 @@
+{
+    "id": "2fc22ca8-cf55-49aa-ba0f-6a1dc413cee7",
+    "organizationId": "2c724048-653e-418c-977f-b33f6219ee16",
+    "apiId": "5f54375f-ae8f-41b1-85aa-3affeaa445b1",
+    "name": "Greeting API",
+    "version": "1.0.0",
+    "apiRoutingKey": null,
+    "vhost": null,
+    "path": "/api/greet",
+    "descriptionType": "original",
+    "descriptionManual": null,
+    "descriptionMarkdown": null,
+    "descriptionUrl": null,
+    "summary": null,
+    "retired": false,
+    "expired": false,
+    "image": null,
+    "retirementDate": 0,
+    "deprecated": false,
+    "state": "published",
+    "createdOn": 1626937683460,
+    "createdBy": "d8554fd4-03a8-4371-be00-90d69df54e10",
+    "corsProfiles": [
+        {
+            "name": "_default",
+            "isDefault": true,
+            "origins": [
+                "*"
+            ],
+            "allowedHeaders": [],
+            "exposedHeaders": [
+                "X-CorrelationID"
+            ],
+            "supportCredentials": false,
+            "maxAgeSeconds": 0
+        }
+    ],
+    "securityProfiles": [
+        {
+            "name": "_default",
+            "isDefault": true,
+            "devices": [
+                {
+                    "name": "API Key",
+                    "type": "apiKey",
+                    "order": 1,
+                    "properties": {
+                        "apiKeyFieldName": "KeyId",
+                        "takeFrom": "HEADER",
+                        "removeCredentialsOnSuccess": "true"
+                    }
+                }
+            ]
+        }
+    ],
+    "authenticationProfiles": [
+        {
+            "name": "_default",
+            "isDefault": true,
+            "parameters": {
+                "_id_": 0
+            },
+            "type": "none"
+        }
+    ],
+    "inboundProfiles": {
+        "_default": {
+            "securityProfile": "_default",
+            "corsProfile": "_default",
+            "monitorAPI": true,
+            "monitorSubject": "authentication.subject.id"
+        }
+    },
+    "outboundProfiles": {
+        "_default": {
+            "authenticationProfile": "_default",
+            "routeType": "policy",
+            "requestPolicy": "<key type='CircuitContainer'><id field='name' value='RBI-Demo'/><key type='FilterCircuit'><id field='name' value='Request Policy 1'/></key></key>",
+            "responsePolicy": "<key type='CircuitContainer'><id field='name' value='RBI-Demo'/><key type='FilterCircuit'><id field='name' value='Response Policy 1'/></key></key>",
+            "routePolicy": "<key type='CircuitContainer'><id field='name' value='Generated Policies'/><key type='CircuitContainer'><id field='name' value='REST API&apos;s'/><key type='CircuitContainer'><id field='name' value='Templates'/><key type='FilterCircuit'><id field='name' value='Default URL-based Routing'/></key></key></key></key>",
+            "faultHandlerPolicy": null,
+            "apiId": "5f54375f-ae8f-41b1-85aa-3affeaa445b1",
+            "apiMethodId": null,
+            "parameters": []
+        }
+    },
+    "serviceProfiles": {
+        "_default": {
+            "apiId": "5f54375f-ae8f-41b1-85aa-3affeaa445b1",
+            "basePath": "http://mocked-apis:8280"
+        }
+    },
+    "caCerts": [],
+    "tags": {}
+}
