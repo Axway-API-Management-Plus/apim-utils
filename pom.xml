@@ -50,11 +50,6 @@
          <version>1.7.32</version>
       </dependency>
       <dependency>
-         <groupId>com.axway.apigw</groupId>
-         <artifactId>apigw-common</artifactId>
-         <version>${apigateway.version}</version>
-      </dependency>
-      <dependency>
          <groupId>com.vordel.mime</groupId>
          <artifactId>vordel-mime</artifactId>
          <version>${apigateway.version}</version>
@@ -62,11 +57,6 @@
       <dependency>
          <groupId>com.vordel.trace</groupId>
          <artifactId>vordel-trace</artifactId>
-         <version>${apigateway.version}</version>
-      </dependency>
-      <dependency>
-         <groupId>com.vordel</groupId>
-         <artifactId>vordel-core-runtime</artifactId>
          <version>${apigateway.version}</version>
       </dependency>
       <dependency>
