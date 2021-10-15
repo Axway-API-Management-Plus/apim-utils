@@ -24,7 +24,9 @@
         "phone": "012345678",
         "email": "sample@sampleapp.com",
         "createdBy": "d8554fd4-03a8-4371-be00-ADMIN",
-        "managedBy": [],
+        "managedBy": [
+        	"2e2b0e93-b840-4493-89af-UNKNOWN"
+        ],
         "createdOn": 1622810814139,
         "enabled": true,
         "image": null,

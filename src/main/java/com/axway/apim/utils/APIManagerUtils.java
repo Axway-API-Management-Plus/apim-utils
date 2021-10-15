@@ -76,6 +76,7 @@ public class APIManagerUtils {
 	}
 	
 	private Subscriber addSubscriber(List<Subscriber> subscribers, User user, String notificationProperty) throws Exception {
+		if(user==null) return null;
 		if(notificationProperty!=null) {
 			JsonNode json = managerAdapter.userAdapter.getJsonUser(user.getId());
 			JsonNode notify = json.get(notificationProperty);
