@@ -14,8 +14,8 @@ import com.vordel.trace.Trace;
 
 public class Utils {
 	
-	private static Logger LOG = LoggerFactory.getLogger("OpenAPIValidator");
-	private static String LOG_PREFIX = "OpenAPIValidator: ";
+	private static Logger LOG = LoggerFactory.getLogger("APIM-Utils");
+	private static String LOG_PREFIX = "APIM-Utils: ";
 	
 	public enum TraceLevel {
 		FATAL, ALWAYS, ERROR, INFO, MIN, DEBUG, DATA ;

@@ -49,14 +49,20 @@ public class APIManagerUserAdapter {
 	
 	public User getUser(String userId) throws Exception {
 		String userDetails = readUserFromManager(userId);
-		if(userDetails==null) return null;
+		if(userDetails==null) {
+			Utils.traceMessage("No user found with ID: " + userId, TraceLevel.ERROR);
+			return null;
+		}
 		User user = mapper.readValue(userDetails, User.class);
 		return user;
 	}
 	
 	public JsonNode getJsonUser(String userId) throws Exception {
 		String userDetails = readUserFromManager(userId);
-		if(userDetails==null) return null;
+		if(userDetails==null) {
+			Utils.traceMessage("No user found with ID: " + userId, TraceLevel.ERROR);
+			return null;
+		}
 		return mapper.readTree(userDetails);
 	}
 }
