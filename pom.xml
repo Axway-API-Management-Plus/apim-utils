@@ -55,6 +55,11 @@
          <version>${apigateway.version}</version>
       </dependency>
       <dependency>
+         <groupId>com.axway.apigw</groupId>
+         <artifactId>apigw-common</artifactId>
+         <version>${apigateway.version}</version>
+      </dependency>
+      <dependency>
          <groupId>com.vordel.trace</groupId>
          <artifactId>vordel-trace</artifactId>
          <version>${apigateway.version}</version>
